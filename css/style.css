@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+header { 
+    background-color: #5ab8a1;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+.icons-header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-header a, i {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact {
+    padding: 1rem;
+    display: block;
+    text-align: center;
+}
+
+
+.icons-header img, .contact img{
+    width: 25px;
+    padding-left: 2px;
+}
+
+
+.container img {
+    border-radius: 50px;
+    margin-left: 2rem;
+}
+
+i {
+    color: white;
+}
+
+#navbar {
+    box-shadow: 0px 1px 2px rgba(108, 102, 102, 0.371);
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#navbarNav {
+    background: #eaeaea;
+    
+}
+
+#navbarNav ul li a:hover{
+    color: #5ab8a1 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.collapse.show ul li a {margin-left: 18px; transition: 500ms ease-in-out;}
+
+/* Section */
+
+.mainbanner img.mobile {
+    width: 100%;
+}
+.mainbanner img.desktop {display: none;}
+
+.schedule {
+    padding: 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.schedule h1 {
+    color:#5ab8a1;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.schedule hr {
+    max-width: 90%;
+    color: gray;
+}
+
+/* Carrossel */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px 30px ;
+    
+}
+
+.slide-box {
+    
+    overflow: hidden;
+    
+    width: 300px;
+    
+}
+
+.slide-box .container-banner {
+    display: flex;
+    transition: transform 0.8s ease-in-out;
+    transform: translateX(0);
+
+}
+
+.banner img {
+    width: 300px;
+    object-fit: cover; 
+}
+
+.cultos-semanais {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cultos-semanais img {
+    width: 300px;
+    border-radius: 6px;
+}
+
+.courses {
+    background: #384852;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.courses img {
+    border-radius: 6px;
+    width: 100%;
+}
+
+.courses a {
+    width: 80%
+
+}
+
+.locale 
+/* Carrossel */
+
+.address {
+
+    padding-top: 5rem;
+    padding-bottom: 5   rem;
+    background-color: #292a2a;
+}
+
+.address h2, .address p {
+    color: #756f6f;
+    padding-left: 3rem;
+}
+
+.address hr {
+    width: 90%;
+    color: #756f6f;
+}
+
+
+footer {
+    background-color: #5ab8a1;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+
+    .icons-header {
+        padding: 0;
+    }
+
+    .icons-header a {
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-nav {background: none;}
+    #navbarNav ul li a {color: #292a2a !important;}
+
+    body > header > div.icons-header > a {transition: ease-in-out 300ms !important;}
+    body > header > div.icons-header > a:nth-child(1):hover {background: #3b5996;}
+    body > header > div.icons-header > a:nth-child(2):hover {background: #d6249f;}
+    body > header > div.icons-header > a:nth-child(3):hover {background: #1ea362;}
+
+    .mainbanner img.mobile {display: none;}
+    .mainbanner img.desktop {
+        display: block;
+        width: 100%;
+    }
+
+    .cultos-semanais {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+}
+
+
+.contact {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.contact a, .contact {
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover {
+    color: black;
+}
+
+#navbar{
+    flex-direction: column;
+}
+
+#navbarNav {
+    height: 60px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+}
+ 

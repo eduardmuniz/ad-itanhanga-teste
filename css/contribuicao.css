@@ -1,0 +1,59 @@
+div h1, .pixBox h2 {
+    text-align: center;
+}
+
+div h1 {
+    color: #5ab8a1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pixBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #5ab8a1;
+}
+
+.pixBox img {border-radius: 20px;}
+
+.pixBox h2 {
+    font-size: 18px;
+    margin: 25px 20px;
+}
+
+.qrCode {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+#copyEmail {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    border: solid 1.5px #000;
+    background: #FFF;
+    transition: 300ms ease-in-out;
+}
+
+#copyEmail:hover {
+    border: #FFF;
+    color: #FFF;
+    background: #000;
+}
+#copyEmail:hover i {color: #FFF;}
+
+#copyEmail i {color: #000;}
